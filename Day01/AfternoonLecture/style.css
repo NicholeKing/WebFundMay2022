@@ -1,0 +1,57 @@
+/* Two things to identify to use CSS */
+/* ONE: What are we affecting? */
+/* We are going to affect an h1 tag */
+/* TWO: What are we doing to it? */
+/* We are turning the h1 text color to green */
+h1 {
+    /* Within these curly braces are all the changes I will apply to this h1 */
+    /* I want to change the font color */
+    /* Well how do I change the font color? */
+    color:rgb(46, 86, 46);
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    background-color:aquamarine;
+}
+
+/* use a . for classes */
+/* Classes can be repeatedly used */
+.nogreen {
+    background-color: rgb(204, 166, 166);
+}
+
+/* use a # for id's */
+/* Should only be used for 1 element */
+#mytable {
+    background-color: orange;
+}
+
+/* tag < class < id */
+/*   1 <   10  < 100 */
+
+.data {
+    background-color: aqua;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.glow {
+    font-size: 80px;
+    color: rgb(44, 246, 145);
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0ef744, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px #0ef744;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #0dac2f, 0 0 40px #0dac2f, 0 0 50px #0dac2f, 0 0 60px #0dac2f, 0 0 70px #0dac2f, 0 0 80px #0dac2f;
+    }
+}
