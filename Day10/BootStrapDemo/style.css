@@ -1,0 +1,17 @@
+/* .container {
+    background-color: orange;
+} */
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 2;
+    height: 600px;
+    background-color: rgb(242, 242, 242);
+}
+
+.left img {
+    width: 90%;
+}
